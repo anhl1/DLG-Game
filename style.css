@@ -135,7 +135,7 @@ button.primary-button {
 }
 
 .primary-button {
-    margin-right: 500px;
+    margin-right: 300px;
     margin-left: 20px
     /* Khoảng cách giữa các nút */
 }
@@ -202,7 +202,7 @@ p1.section2 {
     margin-left: 30px;
 }
 
-h.card2 {
+h.card2-example {
     font-size:18px;
     font-weight: normal;
     margin-left: 0px;
