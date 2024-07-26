@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menulist {
+    float: left;
+    width: 15%;
+    background: #E6E9EA;
+    padding: 10px;
+    line-height:180%;
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        background: #CCCBCB;
+    }
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.menu-side-1 {
+    display: flex;
+    justify-content: left;
+    background-color: #ffffff;
+}
+
+.menu-side-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    margin-left: 50px;
+}
+
+.menu-side-1 a:hover {
+    background-color: #575757;
+}
+
+/*Menu ngang 2*/
+.menu-side-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.menu-side-2 a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu-side-2 a:hover {
+    background-color: #575757;
+}
+
+.menu-side-2 a:hover {
+    background-color: #575757;
+}
+
+.menu-side-3 a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/*button xanh lá*/
+button.greenbutton {
+    background-color: #01AB70;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: left;
+}
+
+.greenbutton:hover {
+    background-color: #059862;
+}
+
+/*nút home va next*/
+button.primary-button {
+    background-color: #01AB70;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #059862;
+}
+
+.primary-group {
+    display: flex;
+    /* Hiển thị các nút theo chiều ngang */
+}
+
+.primary-button {
+    margin-right: 500px;
+    margin-left: 20px
+    /* Khoảng cách giữa các nút */
+}
+
+/*button xanh dương*/
+button.bluebutton {
+    background-color: #3786ec;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:20px;
+}
+
+main {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    background-color: #ffffff;
+    height: none;
+}
+
+h.section1 {
+     font-size:30px;
+     margin-left: 30px;
+     font-weight: bold;
+}
+
+.card1 {
+    background-color:#D8EDE1;
+    margin-left: 15px;
+    padding:20px;
+    line-height:180%; 
+}
+
+p.card1 {
+    font-weight: normal;
+    font-size:18px;
+    text-align: left;
+    padding:5px;
+    margin-left:5px;
+}
+
+.card2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#E7E8EA;
+    padding:20px;
+    border-radius:10px;
+}
+
+h1.section2 {
+    font-size:18px;
+    margin-left: 30px;
+    font-weight:normal;
+}
+
+p1.section2 {
+    margin-left: 30px;
+}
+
+h.card2 {
+    font-size:18px;
+    font-weight: normal;
+    margin-left: 0px;
+}
+
+p.card2-example {
+    background-color: white;
+    padding: 20px;
+    border-left: 5px solid green;
+}
+
+p2.section2 {
+    margin-left:30px;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+hr {
+     height:1px;
+     border-width:0;
+     background-color:#EEEEEE;
+     width:98%;
+     text-align:center;
+     margin-left:5;
+}
+
+
+h1.section3 {
+    font-size:18px;
+    margin-left: 30px;
+    font-weight:normal;
+}
+
+p1.section3 {
+    margin-left: 30px;
+}
+
+.card3 {
+    height:300px;
+    margin-left: 20px;
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+}
+
+p1.card3 {
+    font-size:20px;
+    margin-left: 10px;
+    color:white;
+}
+
+.card3-exercises {
+    height: 200px;
+    background-color: white;
+    margin: 15px;
+    padding:10px
+}
+
+h.exercises {
+    font-size:20px;
+    font-weight:normal;
+    margin:10px;
+}
+
+p.exercises {
+    font-size:15px;
+    font-weight:normal;
+    margin:10px;
+}
+
+p.card3-exercises{
+    padding: 15px;
+    margin: 10px;
+    color:red;
+}
+
+p.exercises-text {
+    background-color: #E7E8EA;
+    padding: 15px;
+    margin: 20px;
+}
+
+h.section4 {
+    font-size:20px;
+    margin-left: 20px; 
+    font-weight:normal;
+}
+
+p.section4 {
+    margin-left: 20px;
+}
+
+h.section5 {
+    font-size:20px;
+    margin-left: 20px;
+    font-weight:normal;
+}
+
+p.section5 {
+    margin-left: 20px; 
+    line-height:180%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
